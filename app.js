@@ -6,6 +6,7 @@ const Book = require("./models/bookModel");
 const bookRouter = require("./routes/bookRouter")(Book);
 
 const app = express();
+//eslint-disable-next-line no-unused-vars
 const db = mongoose.connect(URL);
 const port = process.env.PORT || 3000;
 
