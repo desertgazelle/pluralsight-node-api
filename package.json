@@ -20,6 +20,7 @@
   "homepage": "https://github.com/desertgazelle/pluralsight-node-api#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "mongoose": "^6.2.11",
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
